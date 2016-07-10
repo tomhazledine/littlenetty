@@ -1,9 +1,9 @@
-# Starter
-v.1.0.0
+# Little Netty
+v.4.0.0
 
 ## Overview
 
-This is the Gendall 'boilerplate' WordPress theme to speed up development.
+Version 4 of the Little Netty website.
 
 ## Install
 
