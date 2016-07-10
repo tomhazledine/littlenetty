@@ -1,0 +1,52 @@
+// Typography etc.
+
+//Brandon-Gro
+@font-face {
+    font-family: 'brandon';
+    src: url('../fonts/brandon/brandon_reg-webfont.eot');
+    src: url('../fonts/brandon/brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon/brandon_reg-webfont.woff2') format('woff2'),
+         url('../fonts/brandon/brandon_reg-webfont.woff') format('woff'),
+         url('../fonts/brandon/brandon_reg-webfont.ttf') format('truetype'),
+         url('../fonts/brandon/brandon_reg-webfont.svg#brandon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon';
+    src: url('../fonts/brandon/brandon_bld-webfont.eot');
+    src: url('../fonts/brandon/brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon/brandon_bld-webfont.woff2') format('woff2'),
+         url('../fonts/brandon/brandon_bld-webfont.woff') format('woff'),
+         url('../fonts/brandon/brandon_bld-webfont.ttf') format('truetype'),
+         url('../fonts/brandon/brandon_bld-webfont.svg#brandon') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'brandon';
+    src: url('../fonts/brandon/brandon_reg_it-webfont.eot');
+    src: url('../fonts/brandon/brandon_reg_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon/brandon_reg_it-webfont.woff2') format('woff2'),
+         url('../fonts/brandon/brandon_reg_it-webfont.woff') format('woff'),
+         url('../fonts/brandon/brandon_reg_it-webfont.ttf') format('truetype'),
+         url('../fonts/brandon/brandon_reg_it-webfont.svg#brandon') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+// Fonts
+$display:'brandon',sans-serif;
+$text:$display;
+$utility:Helvetica,Arial,sans-serif;
+// $icons:'iconFont';
+$code:monospace;
+
+// Weights
+$book:400;
+$bold:700;
