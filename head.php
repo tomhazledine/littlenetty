@@ -30,3 +30,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <div class="svgSpriteWrapper hidden">
+        <?php $rawSVG = file_get_contents(get_template_directory_uri() . "/assets/icons/symbol/svg/sprite.symbol.svg"); ?>
+        <?= $rawSVG;//preg_replace( '/fill=("|\')(#)?([a-fA-F0-9]*)("|\')/i', '', $rawSVG ) ?>
+    </div>

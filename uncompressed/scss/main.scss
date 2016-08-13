@@ -24,10 +24,11 @@
 @import "base.forms";
 @import "base.selects";
 @import "base.checkbox";
-@import "base.datepicker";
+@import "base.layout";
 
 // 05. OBJECTS
-@import "objects.pagination";
+// @import "objects.pagination";
+@import "objects.homepage";
 
 // 06. COMPONENTS
 

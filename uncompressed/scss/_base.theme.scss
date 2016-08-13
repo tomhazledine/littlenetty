@@ -2,4 +2,27 @@ body{
     font-family:$text;
     font-weight:normal;
     font-size:1.6em;
+    background:$cream;
+    color:$grey;
+    text-align:center;
+    background-image:url('../icons/intermediate/pattern.svg');
+    background-size:300px;
+    background-position:center;
 }
+
+a{
+    color:$teal;
+    text-decoration:none;
+    transition:color .2s;
+    &:hover{
+        color:$red;
+    }
+}
+
+// svg{
+//     width:4em;
+//     height:4em;
+    // fill:none;
+//     stroke:$grey;
+//     stroke-width:.1em;
+// }

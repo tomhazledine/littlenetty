@@ -3,43 +3,50 @@ form{
 	input{
 		width:100%;
 		// margin-bottom:em;
-		border:.15rem solid $primary;
-		border-radius:.5em;
+		border:.2rem solid $grey;
+		border-radius:0;//.5em;
 		padding:.5em;
 		font-size:1em;
 		line-height:1;
 		height:2em;
 		font-family:$display;
 		color:$black;
+		margin-bottom:.5em;
 		&:focus{
 			outline:none;
-			border-color:$green;
+			border-color:$teal;
 		}
 	}
 	label{
 		display:block;
 		margin-bottom:.2em;
 	}
-	button{
+	.button{
 		@extend %buttonReset;
-		@extend strong;
-		background:$cream;
+		font-family:$text;
+		font-weight:bold;
+		text-transform:uppercase;
+		letter-spacing:.1em;
+		background:$grey;
 		display:block;
 		font-size:1em;
-		border:.15rem solid $primary;
-		border-radius:.5em;
-		padding:.5em .5em;
+		// border:.15rem solid $primary;
+		// border-radius:.5em;
+		padding:.5em 1em;// .4em 1em;
 		line-height:1;
-		color:$primary;
+		color:$white;
 		box-shadow:rgba($black,.4) 0 0 0 0;
+		cursor:pointer;
+		transition:background color;
+		transition-duration:.2s;
 
 		&:focus{
 			outline:none;
 		}
 		&:hover{
-			background:$primary;
-			color:$cream;
-			box-shadow:rgba($black,.4) 0 .1em .1em 0;
+			background:$teal;
+			// color:$cream;
+			// box-shadow:rgba($black,.4) 0 .1em .1em 0;
 		}
 	}
 	button.submitButton{
