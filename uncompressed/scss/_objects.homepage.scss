@@ -4,9 +4,13 @@
     text-align:center;
     .button{
         display:inline-block;
+        background:$teal;
     }
     .mce_inline_error{
         border-color:$red;
+    }
+    @include bp(d3){
+        font-size:1.4em;
     }
 }
 
@@ -29,10 +33,15 @@
     margin:1em auto;
 }
 
+.instagramSingle{
+    margin-bottom:1em;
+}
+
 .homepageLogo{
     margin:2em auto;
     height:16em;
     width:26em;
+    max-width:90%;
     // background:$red;
 }
 

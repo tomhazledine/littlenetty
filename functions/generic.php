@@ -77,16 +77,16 @@
   remove_action('wp_head', 'wp_generator');
 
 // 12. Featured Image Caption
-  function the_post_thumbnail_caption() {
-    global $post;
+  // function the_post_thumbnail_caption() {
+  //   global $post;
 
-    $thumbnail_id    = get_post_thumbnail_id($post->ID);
-    $thumbnail_image = get_posts(array('p' => $thumbnail_id, 'post_type' => 'attachment'));
+  //   $thumbnail_id    = get_post_thumbnail_id($post->ID);
+  //   $thumbnail_image = get_posts(array('p' => $thumbnail_id, 'post_type' => 'attachment'));
 
-    if ($thumbnail_image && isset($thumbnail_image[0])) {
-      echo '<span class="featuredImageCaption">'.$thumbnail_image[0]->post_excerpt.'</span>';
-    }
-  }
+  //   if ($thumbnail_image && isset($thumbnail_image[0])) {
+  //     echo '<span class="featuredImageCaption">'.$thumbnail_image[0]->post_excerpt.'</span>';
+  //   }
+  // }
 
 // 13. Allow svg as featured image
   function cc_mime_types( $mimes ){

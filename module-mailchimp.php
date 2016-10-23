@@ -22,7 +22,7 @@
 
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b5201d3ae43a9cea4c1ffc0ed_13e1ce4728" tabindex="-1" value=""></div>
     
-    <button class="button" name="subscribe" id="mc-embedded-subscribe">Sign Up</button>
+    <button class="button" name="subscribe" id="mc-embedded-subscribe">Sign up now!</button>
 </form>
 
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
