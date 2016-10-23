@@ -7,7 +7,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 /*

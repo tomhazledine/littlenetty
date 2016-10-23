@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 get_header(); ?>

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 get_header(); ?>

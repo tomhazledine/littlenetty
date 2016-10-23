@@ -2,7 +2,7 @@
 /**
  * Enqueuing Scripts & Styles
  *
- * @package  Tabula_Rasa
+ * @package  Little_Netty
  */
 
 /**

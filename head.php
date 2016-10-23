@@ -4,7 +4,7 @@
  *
  * This is the template that displays all of the <head> section and everything up until the <header>
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 ?><!DOCTYPE html>

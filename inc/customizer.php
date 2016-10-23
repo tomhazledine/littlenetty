@@ -2,7 +2,7 @@
 /**
  * Tabula Rasa Theme Customizer.
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 /**

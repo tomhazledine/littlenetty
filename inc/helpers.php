@@ -2,7 +2,7 @@
 /**
  * Tabula Rasa Helpers
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 /**
@@ -19,8 +19,9 @@ function print_pre( $stuff_to_print ) {
 		font-size:10px;
 		padding:10px;
 		margin:10px;
+		text-align:left;
 	">';
-	print( esc_attr( $stuff_to_print ) );
+	var_dump( $stuff_to_print );
 	echo '</pre>';
 }
 

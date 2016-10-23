@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 /**

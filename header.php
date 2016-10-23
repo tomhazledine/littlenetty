@@ -2,7 +2,7 @@
 /**
  * The header for our theme.
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 ?>

@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 if ( ! function_exists( 'tabularasa_posted_on' ) ) :

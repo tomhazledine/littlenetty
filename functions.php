@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Tabula_Rasa
+ * @package Little_Netty
  */
 
 if ( ! function_exists( 'tabularasa_setup' ) ) :
@@ -137,3 +137,8 @@ require get_template_directory() . '/inc/helpers.php';
  * Load custom filters.
  */
 require get_template_directory() . '/inc/filters-actions.php';
+
+/**
+ * Load netty events post-type filters.
+ */
+require get_template_directory() . '/inc/post-type-event.php';
