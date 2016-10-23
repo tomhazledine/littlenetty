@@ -19,6 +19,10 @@ a{
     }
 }
 
+em{
+    font-style:italic;
+}
+
 // svg{
 //     width:4em;
 //     height:4em;
@@ -31,4 +35,21 @@ a{
 .textContent{
     text-align:left;
     font-size:1.2em;
+}
+
+.button{
+    display:inline-block;
+    padding:.5em 1em;
+    line-height:1;
+    font-weight:bold;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    background:$teal;
+    color:$white;
+    transition:background .3s;
+    border-radius:.2em;
+    &:hover{
+        background:darken($teal,20%);
+        color:$white;
+    }
 }

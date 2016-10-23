@@ -31,7 +31,7 @@ form{
 		display:block;
 		font-size:1em;
 		// border:.15rem solid $primary;
-		// border-radius:.5em;
+		border-radius:.2em;
 		padding:.5em 1em;// .4em 1em;
 		line-height:1;
 		color:$white;
@@ -44,7 +44,7 @@ form{
 			outline:none;
 		}
 		&:hover{
-			background:$teal;
+			background:darken($teal,20%);
 			// color:$cream;
 			// box-shadow:rgba($black,.4) 0 .1em .1em 0;
 		}

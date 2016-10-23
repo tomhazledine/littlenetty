@@ -9,7 +9,12 @@
 
 get_header(); ?>
 
-<section class="eventsFeed">
+<div class="eventsArchiveHeader">
+	<h1>Upcoming Events</h1>
+	<p>You can catch Little Netty at these upcoming craft fairs:</p>
+</div>
+
+<section class="wrapWidth eventsFeed clearfix">
 	<?php
 	// Set up 'Events' loop (all 'events', in date-order).
 	$events_args = array(

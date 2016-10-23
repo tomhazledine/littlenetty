@@ -5,25 +5,16 @@
         while (have_posts()) :
             the_post();
             ?>
-
-
-            <svg class="homepageLogo">
-                <use xlink:href="#header" />
-            </svg>
     
             <div class="wrapWidth textContent">
                 <?php the_content(); ?>
             </div>
+            
+            <div class="wrapWidth textContent">
+                <?php get_template_part('module','nextevent'); ?>
+            </div>
 
             <div class="mailchimpFormWrapper wrapWidthSmall">
-
-                <!-- <svg class="full_side left">
-                    <use xlink:href="#full_side" />
-                </svg>
-
-                <svg class="full_side right">
-                    <use xlink:href="#full_side" />
-                </svg> -->
                 
                 <?php get_template_part('module','mailchimp'); ?>
 

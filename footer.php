@@ -15,9 +15,9 @@
 
 	<!-- <footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'tabularasa' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'tabularasa' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'littlenetty' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'littlenetty' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'tabularasa' ), 'tabularasa', '<a href="http://tomhazledine.com" rel="designer">Tom Hazledine</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'littlenetty' ), 'littlenetty', '<a href="http://tomhazledine.com" rel="designer">Tom Hazledine</a>' ); ?>
 		</div>
 	</footer> -->
 </div>

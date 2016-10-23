@@ -1,0 +1,58 @@
+.siteTitleSmall{
+    width:4.1em;
+    height:6em;
+    // margin:0 auto;
+    padding:0;
+    float:left;
+    display:block;
+    .homepageLogoSmall{
+        width:100%;
+        height:100%;
+        stroke:$grey;
+        fill:$grey;
+        transition:stroke fill;
+        transition-duration:.2s;
+        // background:red;
+    }
+    &:hover{
+        // .homepageLogoSmall{
+        //     stroke:$teal;
+        //     fill:$teal;
+        // }
+    }
+}
+
+.mobileMenu{
+    display:none;
+}
+
+.headerMenuHome{
+    li{
+        display:inline-block;
+        font-size:2em;
+    }
+}
+
+.normalHeader{
+    width:12.1em;
+    margin:.5em auto 2em;
+}
+
+.headerMenuSmall{
+    width:4em;
+    display:block;
+    float:left;
+    height:6em;
+    ul{
+        list-style:none;
+        li{
+            display:block;
+            line-height:1;
+            padding:2.5em 0;
+        }
+    }
+}
+
+.headerMenuLeft{}
+
+.headerMenuRight{}

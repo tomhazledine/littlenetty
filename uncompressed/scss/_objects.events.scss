@@ -1,0 +1,87 @@
+.eventsArchiveHeader{
+    h1{
+        text-transform:uppercase;
+        letter-spacing:.1em;
+        font-size:2em;
+        font-weight:bold;
+        padding:0;
+        line-height:1;
+    }
+    padding:0 0 2em 0;
+}
+
+.eventArchiveIcon{
+    width:5em;
+    height:5em;
+    fill:$grey;
+}
+
+.eventArchive{
+    margin-bottom:2em;
+    padding:.5em;
+    &:nth-of-type(2n){
+        margin-right:0;
+    }
+    @include bp(d2){
+        width:100%;
+        margin-right:0;
+        float:none;
+    }
+    li{
+        list-style:none;
+    }
+}
+
+.eventTitle{
+    max-width:16em;
+    margin:0 auto;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:1.4em;
+    font-weight:bold;
+    padding:0 0 .5em 0;
+    line-height:1;
+}
+
+.eventDatesWrapper{
+    margin-bottom:1em;
+}
+
+.eventDates{
+    font-style:italic;
+    display:block;
+}
+
+.eventVenueName{
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-weight:bold;
+}
+
+.eventVenueAddress{
+    font-style:italic;
+    .eventVenueAddressLine{
+        &:after{content:', ';}
+        &:last-of-type:after{content:'';}
+    }
+}
+
+.nextEvent{
+    text-align:center;
+    margin:0 0 4em 0;
+    .button{
+        font-size:.8em;
+    }
+}
+
+.nextEvent .eventArchive{
+    width:100%;
+    float:none;
+    margin-bottom:0;
+    .eventTitle{
+        margin-top:.5em;
+    }
+    .eventDatesWrapper{
+        margin-bottom:0;
+    }
+}
