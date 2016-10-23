@@ -1,22 +1,35 @@
-<?php include"header.php"; ?>
+<?php
+/**
+ * The template for displaying all single posts.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ *
+ * @package Tabula_Rasa
+ */
 
-<div class="singlePost">
+get_header(); ?>
 
-    <section class="mainContent blog">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
 
-        <?php if (have_posts()) :
-            while (have_posts()) : the_post();
-                // The Main Content Lives Here
-                get_template_part('content','single');
-                
-            endwhile;
-        else : ?>
+		<?php
+		while ( have_posts() ) : the_post();
 
-            <h2>Not Found</h2>
+			get_template_part( 'template-parts/content', get_post_format() );
 
-        <?php endif; ?>
-    </section>
+			the_post_navigation();
 
-</div>
+			// If comments are open or we have at least one comment, load up the comment template.
+			if ( comments_open() || get_comments_number() ) :
+				comments_template();
+			endif;
 
-<?php include"footer.php"; ?>
+		endwhile; // End of the loop.
+		?>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<?php
+get_sidebar();
+get_footer();
