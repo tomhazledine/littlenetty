@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<div class="eventsArchiveHeader">
+<div class="eventsArchiveHeader wrapWidth">
 	<h1>Upcoming Events</h1>
 	<p>You can catch Little Netty at these upcoming craft fairs:</p>
 </div>
